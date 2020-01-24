@@ -1,0 +1,6 @@
+requests==2.21.0
+requests_oauthlib==1.2.0
+oauthlib==3.0.1
+pyqrcode==1.2.1
+qrcode==6.1
+
