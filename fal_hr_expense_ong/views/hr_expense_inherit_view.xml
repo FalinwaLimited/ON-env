@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Cluedoo Expense Tree -->
+		<record id="view_expenses_tree_ong_mod" model="ir.ui.view">
+            <field name="name">hr.expense.tree.ong.mod</field>
+            <field name="model">hr.expense</field>
+            <field name="inherit_id" ref="fal_hr_expense.view_expenses_tree_fal_hr_expense"/>
+            <field name="arch" type="xml">
+                <field name="fal_real_currency" position="attributes">
+                    <attribute name="invisible">0</attribute>
+                </field>
+            </field>
+        </record>
+    </data>
+</odoo>
