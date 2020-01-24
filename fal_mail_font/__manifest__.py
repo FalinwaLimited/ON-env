@@ -3,7 +3,7 @@
     'name': "fal mail font",
     'version': '12.4.0.0.0',
     'depends': [
-	'web',
+	'web_editor',
     ],
     'author': "Falinwa Limited",
     'website': "www.falinwa.com",
