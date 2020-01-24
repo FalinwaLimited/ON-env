@@ -1,1 +1,1 @@
-from . import sale_management
+from . import skip_test
