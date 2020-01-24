@@ -21,12 +21,12 @@ class Message(models.Model):
                     if self.env.ref('base.group_user').id in item['groups']:
                         result.append(item)
                 recipient_data['partners'] = result
-            else:
+            #else:
                 #Block external in email template
-                if not msg_vals['fal_allow_external_message']:
-                    result = []
-                    for item in recipient_data['partners']:
-                        if self.env.ref('base.group_user').id in item['groups']:
-                            result.append(item)
-                    recipient_data['partners'] = result
+                #if not msg_vals['fal_allow_external_message']:
+                    #result = []
+                    #for item in recipient_data['partners']:
+                        #if self.env.ref('base.group_user').id in item['groups']:
+                            #result.append(item)
+                    #recipient_data['partners'] = result
         return recipient_data

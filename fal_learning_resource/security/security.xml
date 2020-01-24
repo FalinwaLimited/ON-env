@@ -32,9 +32,9 @@
             <field name="groups" eval="[(4, ref('group_fal_learning_resource_author'))]"/>
         </record>
     </data>
-    <data noupdate="1">
+    <!--<data noupdate="1">
         <record id="base.default_user" model="res.users">
             <field name="groups_id" eval="[(4,ref('group_fal_learning_resource_user'))]"/>
         </record>
-    </data>
+    </data>-->
 </odoo>
