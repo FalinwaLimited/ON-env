@@ -11,6 +11,7 @@
         12.4.0.0.0 - Quick Fix
     ''',
     'depends': [
+        'web',
     ],
     'data': [
         'views/res_company.xml',
